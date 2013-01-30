@@ -39,6 +39,8 @@
         *angle = value;
         return YES;
     }
+    
+    NSLog(@"This is my log statement");
 }
 
 - (void)setOverrideAngle:(NSUInteger)angle forPage:(NSUInteger)page
