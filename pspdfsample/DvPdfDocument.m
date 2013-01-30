@@ -20,6 +20,8 @@
 - (PSPDFDocumentProvider*)didCreateDocumentProvider:(PSPDFDocumentProvider*)documentProvider
 {
     DvPdfDocumentProvider* provider = [[[DvPdfDocumentProvider alloc] initWithFileURL:self.fileURL document:self] autorelease];
+    
+    NSLog(@"Another great modification");
     return provider;
 }
 
